@@ -1,0 +1,68 @@
+button[type="submit"] {
+    background-color: #29a06d;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px #444;
+    
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    background-color: #090;
+    transition: all .2s;
+    color: #fff;
+}
+
+button[type="submit"]:active{
+    box-shadow: inset 1px 1px 1px #444;
+    transform: translateY(1px);
+}
+
+button[type="reset"]{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #333;
+}
+
+button[type="reset"]:hover,
+button[type="reset"]:focus {
+    background-color: red;
+    transition: all .2s;
+    color: #fff;
+}
+
+button[type="reset"]:active {
+    box-shadow: inset 2px 2px 2px #333;
+    transform: translateY(1px);
+}
+
+button[type="disable"] {
+    background-color: #c9c9c9;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px #444;
+    
+}
+
+button[type="disable"]:hover,
+button[type="disable"]:focus {
+    background-color: #000;
+    transition: all .2s;
+    color: #fff;
+}
+
+button[type="disable"]:active {
+    box-shadow: inset 2px 2px 2px #f8f7f7;
+    transform: translateY(1px);
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario HTML</title>
+</head>
+<body>
+
+    <form action="">
+
+        
+        <div class="controle-form">   
+            <label for="codigo">Código:</label>
+            <input type="number" id="codigo" value="14131315" disabled>
+        </div>
+        
+        <div class="controle-form">   
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required autocomplete="name" autofocus>
+        </div>
+
+        <div class="controle-form">   
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" maxlength="11">
+        </div>
+
+        <div class="controle-form">   
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required autocomplete="email">
+        </div>
+
+        <div class="controle-form">   
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" min="0" max="70" value="18">
+        </div>
+
+        <div class="controle-form">   
+            <label for="altura">Altura:</label>
+            <input type="number" id="altura" min="0" max="2.50" step="0.01" placeholder="ex: 1,60">
+        
+        </div>
+
+        <div class="controle-form">   
+            <label for="peso">Peso:</label>
+            <input type="number" id="peso" min="0" max="595" step="0.05"  placeholder="ex: 35">
+        </div>
+
+        <div class="controle-form">   
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data">
+        </div>
+
+        <div class="controle-form">   
+            <label for="cadastro">Data de cadastro:</label>
+            <input type="date" id="cadastro">
+        </div>
+
+        <div class="controle-form">   
+            <label for="horaCadastro">Hora de cadastro:</label>
+            <input type="time" id="horaCadastro">
+        </div>
+        
+        <div class="controle-form">   
+            <label for="arquivo">Nova senha:</label>
+            <input type="password" id="senha">
+        </div>
+
+        <div class="controle-form">   
+            <label for="arquivo">Arquivo:</label>
+            <input type="file" id="arquivo">
+        </div>
+
+        <div class="controle-form">   
+            <label for="cor">Cor preferida:</label>
+            <input type="color" id="cor">
+        </div>
+
+        <input type="hidden" id="chaveSecreta" value="dshgljgvcuhsgdvygfvckygdsjvgkuy">
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <button type="disable">Desabilitar</button>
+
+    </form>
+    
+</body>
+</html>
