@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .controle-form{
     margin-bottom: 20px;
 }
